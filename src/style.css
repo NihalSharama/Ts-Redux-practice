@@ -1,0 +1,44 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.App {
+  margin-top: 25%;
+  width: 50vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgba(233, 15, 80, 0.76);
+}
+
+.App input {
+  outline: none;
+  border: none;
+  padding: 1rem;
+  width: 70%;
+  height: 1rem;
+}
+.App .buttons {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  height: fit-content;
+}
+
+.App .buttons button {
+  outline: none;
+  border: none;
+  background-color: rgb(77, 248, 248);
+  border-radius: 6px;
+  padding: 0.5rem;
+}
+
+.App button:hover {
+  background-color: rgb(101, 196, 255);
+}
